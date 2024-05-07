@@ -1,0 +1,26 @@
+auto
+
+id             INT          |  PRIMAR_KEY  |                       NOTNULL- AUTO_INCREMENT-UNIQUE 
+
+marca          VARCHAR(20)  | NOTNULL      |
+
+modello        VARCHAR(50)  | NOTNULL      |
+ 
+carrozzeria    VARCHAR(20)  | NULL         |
+
+cambio         VARCHAR(20)  | NULL         |
+
+alimentazione  VARCHAR(20)  | NOTNULL      |
+
+cilindrata     SMALLINT     | NULL         |
+
+cv             SMALLINT     | NOTNULL      |
+
+prezzo         DECIMAL(9,3) | NULL         | DEFAULT('CONTATTACI')
+
+anno           YEAR         | NULL         |
+
+km             INT          | NULL         |
+
+condizioni     VARCHAR(20)  | NULL         | DEFAULT('USATA')
+
